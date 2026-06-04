@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/tuitions/layout,_N_T_/admin/tuitions/page,_N_T_/admin/tuitions"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/tuitions/__PAGE__",
+    "/admin/tuitions",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

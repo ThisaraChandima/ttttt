@@ -1,0 +1,148 @@
+.tuition-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--text-primary);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.tuition-card-image {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+}
+
+.tuition-card-image-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tuition-card-image-letter {
+  font-family: var(--font-display);
+  font-size: 4rem;
+  font-weight: 900;
+  opacity: 0.6;
+}
+
+.tuition-card-featured {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 4px 12px;
+  background: var(--gradient-primary);
+  color: white;
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tuition-card-verified {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 4px 10px;
+  background: rgba(0, 184, 148, 0.2);
+  color: var(--success-500);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  backdrop-filter: blur(8px);
+}
+
+.tuition-card-content {
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  flex: 1;
+}
+
+.tuition-card-category {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 3px 10px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.tuition-card-title {
+  font-family: var(--font-display);
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.tuition-card-location {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  color: var(--text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.tuition-card-location svg {
+  color: var(--primary-400);
+  flex-shrink: 0;
+}
+
+.tuition-card-desc {
+  color: var(--text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+}
+
+.tuition-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: var(--space-sm);
+}
+
+.tuition-card-rating {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.tuition-card-reviews {
+  color: var(--text-tertiary);
+  font-size: var(--font-size-xs);
+}
+
+.tuition-card-fees {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--accent-400);
+}
+
+.tuition-card-action {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  color: var(--primary-400);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--border-color);
+  margin-top: var(--space-sm);
+  transition: all var(--transition-fast);
+}
+
+.tuition-card:hover .tuition-card-action {
+  gap: var(--space-sm);
+  color: var(--accent-400);
+}

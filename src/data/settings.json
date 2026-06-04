@@ -1,0 +1,12 @@
+{
+  "siteName": "TuitionRate",
+  "tagline": "Find & Rate the Best Tuition Classes",
+  "contactEmail": "support@tuitionrate.com",
+  "contactPhone": "+94 11 234 5678",
+  "address": "No. 42, Galle Road, Colombo 03, Sri Lanka",
+  "socialLinks": {
+    "facebook": "https://facebook.com/tuitionrate",
+    "twitter": "https://twitter.com/tuitionrate",
+    "instagram": "https://instagram.com/tuitionrate"
+  }
+}

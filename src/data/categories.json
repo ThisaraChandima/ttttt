@@ -1,0 +1,10 @@
+[
+  { "id": "cat-1", "name": "Mathematics", "slug": "mathematics", "icon": "calculator", "description": "Algebra, Calculus, Statistics, Geometry and more", "color": "#6C5CE7" },
+  { "id": "cat-2", "name": "Science", "slug": "science", "icon": "flask-conical", "description": "Physics, Chemistry, Biology and Environmental Science", "color": "#00B894" },
+  { "id": "cat-3", "name": "English", "slug": "english", "icon": "book-open", "description": "Grammar, Literature, Creative Writing and IELTS preparation", "color": "#E17055" },
+  { "id": "cat-4", "name": "Information Technology", "slug": "it", "icon": "monitor", "description": "Programming, Web Development, Data Science and Cybersecurity", "color": "#0984E3" },
+  { "id": "cat-5", "name": "Commerce", "slug": "commerce", "icon": "trending-up", "description": "Accounting, Business Studies, Economics and Finance", "color": "#FDCB6E" },
+  { "id": "cat-6", "name": "Languages", "slug": "languages", "icon": "languages", "description": "Sinhala, Tamil, Japanese, French and other languages", "color": "#E84393" },
+  { "id": "cat-7", "name": "Music & Arts", "slug": "music-arts", "icon": "music", "description": "Vocal, Instruments, Drawing, Painting and Sculpture", "color": "#A29BFE" },
+  { "id": "cat-8", "name": "Sports & Fitness", "slug": "sports", "icon": "dumbbell", "description": "Cricket, Swimming, Martial Arts and Personal Training", "color": "#55EFC4" }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "user-1",
+    "name": "Admin",
+    "email": "admin@tuitionrate.com",
+    "password": "$2b$10$adminhashedpassword123456789012345678901234",
+    "passwordPlain": "admin123",
+    "role": "admin",
+    "avatar": "/images/avatars/admin.jpg",
+    "bio": "Platform administrator",
+    "createdAt": "2025-01-01T00:00:00Z"
+  },
+  {
+    "id": "user-2",
+    "name": "Kasun Perera",
+    "email": "kasun@example.com",
+    "password": "$2b$10$userhashedpassword1234567890123456789012345",
+    "passwordPlain": "user123",
+    "role": "user",
+    "avatar": "/images/avatars/user2.jpg",
+    "bio": "A/L student looking for the best tuition classes",
+    "createdAt": "2025-02-15T10:00:00Z"
+  },
+  {
+    "id": "user-3",
+    "name": "Dilini Fernando",
+    "email": "dilini@example.com",
+    "password": "$2b$10$userhashedpassword2345678901234567890123456",
+    "passwordPlain": "user123",
+    "role": "user",
+    "avatar": "/images/avatars/user3.jpg",
+    "bio": "University student and part-time tutor",
+    "createdAt": "2025-03-01T10:00:00Z"
+  },
+  {
+    "id": "user-4",
+    "name": "Nuwan Silva",
+    "email": "nuwan@example.com",
+    "password": "$2b$10$userhashedpassword3456789012345678901234567",
+    "passwordPlain": "user123",
+    "role": "user",
+    "avatar": "/images/avatars/user4.jpg",
+    "bio": "Parent searching for quality education for my children",
+    "createdAt": "2025-03-20T10:00:00Z"
+  },
+  {
+    "id": "user-5",
+    "name": "Sachini Jayawardena",
+    "email": "sachini@example.com",
+    "password": "$2b$10$userhashedpassword4567890123456789012345678",
+    "passwordPlain": "user123",
+    "role": "user",
+    "avatar": "/images/avatars/user5.jpg",
+    "bio": "O/L student preparing for exams",
+    "createdAt": "2025-04-05T10:00:00Z"
+  }
+]
